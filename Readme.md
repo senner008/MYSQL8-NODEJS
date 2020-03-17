@@ -10,7 +10,7 @@ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-password -p 33060:3306 -d
 ### To enter MySQL bash in container:
 docker exec -it some-mysql mysql -u root -pmy-password
 
-create table test;
+create database test;
 
 ### env file
 ```
