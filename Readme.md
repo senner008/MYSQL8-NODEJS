@@ -13,8 +13,10 @@ docker exec -it some-mysql mysql -u root -pmy-password
 create table test;
 
 ### env file
+```
 DB_HOST=localhost
 DB_PORT=33060
 DB_NAME=test
 DB_USER=root
 DB_PASSWORD=my-password
+```
