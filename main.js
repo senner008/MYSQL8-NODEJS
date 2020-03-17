@@ -6,7 +6,7 @@ const app = express()
 const port = 3000
 
 const mysqlx = require('@mysql/xdevapi');
-const options = { user: process.env.MYSQL_USER, password: process.env.MYSQL_PASSWORD };
+const options = { user: process.env.DB_USER, password: process.env.DB_PASSWORD, port: DB_PORT };
 
 (async function () {
   let session;
